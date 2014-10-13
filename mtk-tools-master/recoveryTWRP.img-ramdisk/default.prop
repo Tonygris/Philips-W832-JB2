@@ -1,0 +1,16 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=0
+ro.allow.mock.location=1
+ro.debuggable=1
+persist.sys.usb.config=mass_storage,adb
+
+ro.product.model=Philips W832
+ro.product.brand=Philips
+ro.product.name=W832
+ro.product.device=W832
+ro.product.board=tinno77_s9091jb
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=Philips

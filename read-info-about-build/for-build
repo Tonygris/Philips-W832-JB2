@@ -1,0 +1,22 @@
+i use linuxmint mate with codecs x64 for build, u can download it here
+http://www.linuxmint.com/edition.php?id=160
+(i like function open in terminal, open folder right button mouse, easy)
+
+next step unpack source to ur home folder, all right ready for build now
+
+go to the fly_dev, open in terminal project jb2v3-0 and write command
+CROSS_COMPILE=$HOME/fly_dev/arm-eabi-4.6/bin/arm-eabi- TARGET_PRODUCT=tinno77_s9091jb2 ./build.sh release verbose
+
+okey build start, after 20 minutes kernel+modules in folder jb2v3-0/build_result, rename kernel_.bin in kernel, and strip modules look how u can do that
+								   ||
+								   \/
+open in terminal folder with modules and write command (u need change qus1 to ur name for correct)
+find . -type f -name '*.ko' | xargs -n 1 /home/qus1/fly_dev/arm-eabi-4.6/bin/arm-eabi-strip --strip-unneeded
+
+----------------------------------------------------------------------------------------------------------------------------
+info about source
+/mediatek/custom/tinno77_s9091jb2 - project iq443, aqua wonder, peax, a888
+/mediatek/config/tinno77_s9091jb2 - config iq443, aqua wonder, peax, a888
+/mediatek/config/mt6577 - config kernel 3.4.5
+----------------------------------------------------------------------------------------------------------------------------
+

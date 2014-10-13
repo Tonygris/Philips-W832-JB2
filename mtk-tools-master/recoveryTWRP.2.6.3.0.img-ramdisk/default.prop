@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=0
+ro.allow.mock.location=1
+ro.debuggable=1
+persist.sys.usb.config=mass_storage,adb
+
+ro.build.id=beta
+ro.product.brand=Philips
+ro.product.name=W832
+ro.product.device=W832
+ro.product.board=W832
+ro.product.manufacturer=Philips
+ro.product.model=W832	

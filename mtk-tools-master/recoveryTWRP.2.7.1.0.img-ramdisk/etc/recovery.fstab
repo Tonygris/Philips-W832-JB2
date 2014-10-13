@@ -1,0 +1,15 @@
+# mount point   fstype      	device          	[device2]
+
+/boot		emmc		/dev/bootimg
+/cache		ext4		/emmc@cache
+/data		ext4		/emmc@usrdata
+/misc		emmc		/dev/misc
+/recovery	emmc		/dev/recovery
+/system		ext4		/emmc@android
+/emmc    	vfat       	/dev/block/mmcblk0p6	flags=display="Phone Storage";settingsstorage
+/sdcard2	vfat		/dev/block/mmcblk1p1	/dev/block/mmcblk1 flags=display="Sd-Card";storage;removable
+/nvram		emmc		/dev/nvram		flags=display="Nvram";backup=1
+/uboot		emmc		/dev/uboot		flags=display="Uboot";backup=1
+/sd-ext     	auto        	/dev/block/mmcblk1p2
+/sec_ro 	emmc 		/dev/block/mmcblk0p2 	flags=subpartitionof=/nvram;backup=1
+/logo 		emmc 		/dev/logo 		flags=display="Boot Splash Logo";backup=1

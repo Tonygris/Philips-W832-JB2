@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=0
+ro.allow.mock.location=1
+ro.debuggable=1
+persist.sys.usb.config=mass_storage,adb
+
+ro.build.id=JZO54K
+ro.product.brand=Lenovo
+ro.product.name=P700i
+ro.product.device=P700i
+ro.product.board=P700i
+ro.product.manufacturer=LENOVO
+ro.product.model=Wiko_Peax 
